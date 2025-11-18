@@ -1,0 +1,25 @@
+
+
+Desafio – “Lista de Clientes com Rota Dinâmica no Express”
+Objetivo geral
+
+Construir uma pequena aplicação em Node.js com Express que:
+
+- tenha uma página inicial com uma lista de clientes;
+- permita clicar em um cliente e abrir uma página de detalhes;
+- use uma única rota dinâmica (/pessoa/:nome/:idade/:cidade) para exibir os dados;
+- carregue uma foto do cliente automaticamente, com base no nome recebido na URL.
+
+📁 Estrutura mínima do projeto
+
+projeto/
+ ├─ server.js
+ ├─ html/
+ │   ├─ index.html
+ │   └─ pessoa.html
+ └─ public/
+     └─ img/
+         ├─ ana.jpg
+         ├─ joao.jpg
+         └─ marcos.jpg
+

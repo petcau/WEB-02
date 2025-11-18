@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados do Cliente</title>
+</head>
+<body>
+
+    <h1>Dados do Cliente</h1>
+
+    <img id="foto" width="200"><br><br>
+
+    <p><b>Nome:</b> <span id="nome"></span></p>
+    <p><b>Idade:</b> <span id="idade"></span> anos</p>
+    <p><b>Cidade:</b> <span id="cidade"></span></p>
+
+    <br>
+    <a href="/">Voltar para a lista de clientes</a>
+
+    <script>
+        // Capturar parâmetros da URL: /pessoa/nome/idade/cidade
+        const partesURL = window.location.pathname.split("/");
+
+        const nome = partesURL[2];
+        const idade = partesURL[3];
+        const cidade = partesURL[4];
+
+        // Preencher HTML
+        document.getElementById("nome").textContent = nome;
+        document.getElementById("idade").textContent = idade;
+        document.getElementById("cidade").textContent = cidade;
+
+        // Definir foto com base no nome
+        const nomeArquivo = nome;  
+        document.getElementById("foto").src = "/img/" + nomeArquivo + ".jpg";
+    </script>
+
+</body>
+</html>
