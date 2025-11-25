@@ -1,0 +1,23 @@
+Supabase
+
+host: aws-1-us-east-2.pooler.supabase.com
+port:5432
+database:postgres
+user:postgres.tjqjpopdzojijsimayvl
+password: aula2025web2
+pool_mode:session
+
+postgresql://postgres.tjqjpopdzojijsimayvl:aula2025web2@aws-1-us-east-2.pooler.supabase.com:5432/postgres
+
+
+Passo a Passo
+
+1. O bd pode estar pausado...clique em restore
+
+2. No menu do topo da tela...clique em connect
+
+3. Mude o Method para Session pooler....e copie a string de conexão
+
+
+
+
