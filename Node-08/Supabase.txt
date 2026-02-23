@@ -9,6 +9,8 @@ pool_mode:session
 
 postgresql://postgres.tjqjpopdzojijsimayvl:aula2025web2@aws-1-us-east-2.pooler.supabase.com:5432/postgres
 
+postgresql://postgres.tjqjpopdzojijsimayvl:aula2025web2@aws-1-us-east-2.pooler.supabase.com:5432/postgres
+
 
 Passo a Passo
 
